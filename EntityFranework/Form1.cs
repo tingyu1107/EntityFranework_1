@@ -30,5 +30,33 @@ namespace EntityFranework
             var form = new AddForm();
             form.ShowDialog();
         }
+
+        //修改
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var form = new ModifyForm();
+            form.ShowDialog();
+        }
+
+        //刪除
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var form = new DelForm();
+            form.ShowDialog();
+        }
+
+
+        //查特定
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var form = new QueryForm();
+            form.ShowDialog();
+        }
+
+
+
+
+
+        
     }
 }
